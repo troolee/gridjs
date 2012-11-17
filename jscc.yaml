@@ -1,0 +1,12 @@
+api_version: 1
+source_dir: .
+output_dir: lib
+default_compilation_level: whitespace
+
+targets:
+    gird.js:
+        sources:
+            - src/logger.js
+            - src/api.js
+            - src/forms.js
+            - src/grid.js
